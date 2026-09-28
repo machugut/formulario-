@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <link rel="styles.css" >
+       <link rel="shortcut icon" type="image/x-icon" href="5225images.ico">
+   </head>
+<body style="text-align: center;" >
+   
+<h1 style="color: red;">Formulario matriculacion  </h1>
+<form action = "registrardatos.php" method="post" >
+   <fieldset>
+   Ingrese su nombre y apellidos 
+   <input type="text" name="nombre"  size="20" >
+   <br>
+<p >¿Has pertenecido a este instituto anteriormente ? </p>
+   <input type="checkbox" name="chexbox"> 
+    <br >
+    Sellecione su curso 
+   <select name="pais">
+      <option value="1º">1º</option>
+      <option value="2º">2º</option>
+      <option value="3º">3º</option>
+      <option value="4º">4º</option>
+   </select>
+   <br>
+   Introduzca su edad
+   <input type="number ">
+   <br>
+   Seleccione 
+    <input type="radio" id="ESO" name="curso " value="ESO">
+  <label for="html">ESO</label>
+  <input type="radio" id="bachiller" name="curso " value="bachiller">
+  <label for="css">bachiller</label><br>
+   <button type="button">Enviar</button>
+    <br> manda tu archivo 
+    <input type="file"> 
+   </fieldset>
+   </form>
+</body>
+</html>
